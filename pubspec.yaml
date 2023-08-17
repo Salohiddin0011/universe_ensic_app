@@ -1,0 +1,56 @@
+name: universe_ensic_app
+description: A new Flutter project.
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  easy_localization: ^3.0.2
+  hive_flutter: ^1.1.0
+  path: ^1.8.3
+  glassmorphism: ^3.0.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/stars/
+    - assets/images/quasars/
+    - assets/images/planets/
+    - assets/images/black_holes/
+    - assets/images/galaxy/
+    - assets/images/nebula/
+    - assets/images/
+    - assets/languages/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+
